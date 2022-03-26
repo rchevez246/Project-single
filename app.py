@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from routes.ruta101b import colinf
-from Databases.db import db
+from Routes.ruta101b import colinf
+from Databases.db import landingdb
 
 app = Flask(__name__)
 

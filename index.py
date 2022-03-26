@@ -1,8 +1,8 @@
 from app import app
-from Databases.db import db
+from Databases.db import landingdb
 
 with app.app_context():
-    db.create_all()
+    landingdb.create_all()
 
 if __name__ == "__main__":
     app.run(debug=True)
